@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f172a; 
+  --foreground: #f8fafc; 
+}
+
+body {
+  background-color: transparent;
+  color: var(--foreground);
+  overflow: hidden;
+}
+
+.draggable { -webkit-app-region: drag; }
+.no-drag { -webkit-app-region: no-drag; }
